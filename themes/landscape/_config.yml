@@ -1,12 +1,14 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
+  主页: /
+  文章: /archives
 rss: /atom.xml
 
 # Content
 excerpt_link: Read More
 fancybox: true
+
+language: zh-CN
 
 # Sidebar
 sidebar: right

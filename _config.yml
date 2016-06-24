@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: Doveblog
+subtitle: 立志成为一个牛逼的前端er 吼吼！
 description:
-author: John Doe
-language:
+author: dove
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://kingvill.github.io/doveblog.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -48,6 +48,11 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+
+archive: 1
+category: 1
+tag: 1
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
@@ -65,7 +70,11 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
+duoshuo_shortname: dovevill
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/Dovejun/dovejun.github.io.git
+  branch: master
