@@ -6,6 +6,12 @@
   <% if (index){ %>
     <h1 itemprop="name">
       <a class="<%= class_name %>" href="<%- url_for(post.path) %>"><%= post.title %></a>
+      <span class="post-comments-count">
+        &nbsp; | &nbsp;
+        <a href="<%- url_for(post.path) %>#comments" itemprop="discussionUrl">
+          <span class="post-comments-count ds-thread-count" data-thread-key="<%- post.path %>" itemprop="commentsCount"></span>
+        </a>
+      </span>
     </h1>
   <% } else { %>
     <h1 class="<%= class_name %>" itemprop="name">
